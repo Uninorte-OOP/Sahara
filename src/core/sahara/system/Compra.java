@@ -26,6 +26,8 @@ public class Compra {
         this.unidades = unidades;
         this.bodegas = bodegas;
         this.total = this.calculateTotal();
+        
+        this.usuario.addCompra(this);
     }
     
     private double calculateTotal() {

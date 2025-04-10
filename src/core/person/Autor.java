@@ -20,4 +20,8 @@ public class Autor extends Persona {
         this.libros = new ArrayList<>();
     }
     
+    public void addLibro(Libro libro) {
+        this.libros.add(libro);
+    }
+    
 }

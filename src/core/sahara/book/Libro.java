@@ -39,6 +39,18 @@ public class Libro {
         this.precio = precio;
         this.bodegas = new ArrayList<>();
         this.evaluaciones = new ArrayList<>();
+        
+        for (Autor autor : this.autores) {
+            autor.addLibro(this);
+        }
+    }
+    
+    public void addEvaluacion(Evaluacion evaluacion) {
+        this.evaluaciones.add(evaluacion);
+    }
+
+    public int getId() {
+        return id;
     }
     
 }

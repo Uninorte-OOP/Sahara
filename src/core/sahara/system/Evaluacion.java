@@ -30,6 +30,16 @@ public class Evaluacion {
         this.comentario = comentario;
         this.likes = 0;
         this.dislikes = 0;
+        
+        this.libro.addEvaluacion(this);
+    }
+    
+    public void increaseLikes() {
+        this.likes++;
+    }
+    
+    public void increaseDislikes() {
+        this.dislikes++;
     }
     
 }

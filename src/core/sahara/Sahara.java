@@ -44,4 +44,26 @@ public class Sahara {
         this.usuarios.add(usuario);
     }
     
+    public Bodega getBodega(int index) {
+        return this.bodegas.get(index);
+    }
+    
+    public Libro getLibro(int libroId) {
+        for (Libro libro : this.libros) {
+            if (libro.getId() == libroId) {
+                return libro;
+            }
+        }
+        return null;
+    }
+    
+    public Usuario getUsuario(int usuarioId) {
+        for (Usuario usuario : this.usuarios) {
+            if (usuario.getId() == usuarioId) {
+                return usuario;
+            } 
+        }
+        return null;
+    }
+    
 }

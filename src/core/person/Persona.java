@@ -21,5 +21,9 @@ public abstract class Persona {
         this.telefono = telefono;
         this.direccion = direccion;
     }
+
+    public int getId() {
+        return id;
+    }
     
 }
