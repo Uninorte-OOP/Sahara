@@ -996,6 +996,11 @@ public class MainParcial2249 {
         sahara.getUsuario(5996833).like(sahara.getUsuario(6945232).getEvaluacion(0));
         sahara.getUsuario(5043746).dislike(sahara.getUsuario(6945232).getEvaluacion(0));
         sahara.getUsuario(5910741).dislike(sahara.getUsuario(6945232).getEvaluacion(0));
+        
+        sahara.showLibroMayorPromedioEstrellasEvaluacion();
+        sahara.showUsuarioMaxCompra();
+        sahara.showUsuarioMaxLikes();
+        sahara.showUsuarioMaxDislikes();
     }
     
 }

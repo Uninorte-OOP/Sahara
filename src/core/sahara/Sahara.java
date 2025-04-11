@@ -74,4 +74,36 @@ public class Sahara {
         return null;
     }
     
+    public void showLibroMayorPromedioEstrellasEvaluacion() {
+        
+    }
+    
+    public void showUsuarioMaxCompra() {
+        
+    }
+    
+    public void showUsuarioMaxLikes() {
+        int maxLikes = 0;
+        Usuario maxUsuario = null;
+        for (Usuario usuario: this.usuarios) {
+            if (usuario.getTotalLikes() > maxLikes) {
+                maxLikes = usuario.getTotalLikes();
+                maxUsuario = usuario;
+            }
+        }
+        System.out.println("Max Likes");
+    }
+    
+    public void showUsuarioMaxDislikes() {
+        int maxDislikes = 0;
+        Usuario maxUsuario = null;
+        for (Usuario usuario: this.usuarios) {
+            if (usuario.getTotalDislikes() > maxDislikes) {
+                maxDislikes = usuario.getTotalDislikes();
+                maxUsuario = usuario;
+            }
+        }
+        System.out.println("Max Dislikes");
+    }
+    
 }

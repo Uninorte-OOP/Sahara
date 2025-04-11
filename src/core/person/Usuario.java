@@ -45,4 +45,20 @@ public class Usuario extends Persona {
         evaluacion.increaseDislikes();
     }
     
+    public int getTotalLikes() {
+        int total = 0;
+        for (Evaluacion evaluacion : this.evaluaciones) {
+            total += evaluacion.getLikes();
+        }
+        return total;
+    }
+    
+    public int getTotalDislikes() {
+        int total = 0;
+        for (Evaluacion evaluacion : this.evaluaciones) {
+            total += evaluacion.getDislikes();
+        }
+        return total;
+    }
+    
 }

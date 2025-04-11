@@ -33,6 +33,14 @@ public class Evaluacion {
         
         this.libro.addEvaluacion(this);
     }
+
+    public int getLikes() {
+        return likes;
+    }
+
+    public int getDislikes() {
+        return dislikes;
+    }
     
     public void increaseLikes() {
         this.likes++;
