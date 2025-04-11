@@ -36,4 +36,8 @@ public class Bodega {
         }
     }
     
+    public int getExistencias(Libro libro) {
+        return this.existencias.get(this.libros.indexOf(libro));
+    }
+    
 }

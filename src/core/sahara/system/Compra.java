@@ -37,5 +37,9 @@ public class Compra {
         }
         return total;
     }
+
+    public double getTotal() {
+        return total;
+    }
     
 }

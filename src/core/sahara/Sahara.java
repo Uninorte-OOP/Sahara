@@ -75,11 +75,47 @@ public class Sahara {
     }
     
     public void showLibroMayorPromedioEstrellasEvaluacion() {
-        
+        double maxPromedio = -1;
+        Libro maxLibro = null;
+        for (Libro libro : this.libros) {
+            if (libro.getPromedioEstrellas() > maxPromedio) {
+                maxPromedio = libro.getPromedioEstrellas();
+                maxLibro = libro;
+            }
+        }
+        System.out.println("La informacion del libro que tiene el mayor promedio en estrellas de sus evaluaciones es:");
+        System.out.println("- ID: " + maxLibro.getId());
+        System.out.println("- Titulo: " + maxLibro.getTitulo());
+        System.out.println("- Autores: " + maxLibro.getAutores());
+        System.out.println("- Editorial: " + maxLibro.getEditorial());
+        System.out.println("- Ediciones: " + maxLibro.getEdiciones());
+        System.out.println("- ISBN: " + maxLibro.getIsbn());
+        System.out.println("- Caracteristicas: " + maxLibro.getCaracteristicas());
+        System.out.println("- Genero: " + maxLibro.getGenero());
+        System.out.println("- Precio: $" + maxLibro.getPrecio());
+        System.out.println("- Numero de Bodegas: " + maxLibro.getBodegas().size());
+        System.out.println("- Total de Existencias: " + maxLibro.getTotalExistencias());
+        System.out.println("- Numero de Evaluaciones: " + maxLibro.getNumeroEvaluaciones());
+        System.out.println("- Estrellas Promedio: " + String.format("%.2f", maxPromedio).replace(",", ".") + "\n");
     }
     
     public void showUsuarioMaxCompra() {
-        
+        double maxTotal = 0;
+        Usuario maxUsuario = null;
+        for (Usuario usuario : this.usuarios) {
+            if (usuario.getMaxCompra() != null && usuario.getMaxCompra().getTotal() > maxTotal) {
+                maxTotal = usuario.getMaxCompra().getTotal();
+                maxUsuario = usuario;
+            }
+        }
+        System.out.println("La informacion del usuario que registro la mayor compra es:");
+        System.out.println("- ID: " + maxUsuario.getId());
+        System.out.println("- Nombre: " + maxUsuario.getNombre());
+        System.out.println("- Telefono: " + maxUsuario.getTelefono());
+        System.out.println("- Direccion: " + maxUsuario.getDireccion());
+        System.out.println("- Numero de Compras: " + maxUsuario.getCantidadCompras());
+        System.out.println("- Numero de Evaluaciones: " + maxUsuario.getNumeroEvaluaciones());
+        System.out.println("- Mayor Compra: $" + String.format("%.2f", maxTotal).replace(",", ".") + "\n");
     }
     
     public void showUsuarioMaxLikes() {
@@ -91,7 +127,14 @@ public class Sahara {
                 maxUsuario = usuario;
             }
         }
-        System.out.println("Max Likes");
+        System.out.println("La informacion del usuario que tiene el mayor numero de likes en todas sus evaluaciones es:");
+        System.out.println("- ID: " + maxUsuario.getId());
+        System.out.println("- Nombre: " + maxUsuario.getNombre());
+        System.out.println("- Telefono: " + maxUsuario.getTelefono());
+        System.out.println("- Direccion: " + maxUsuario.getDireccion());
+        System.out.println("- Numero de Compras: " + maxUsuario.getCantidadCompras());
+        System.out.println("- Numero de Evaluaciones: " + maxUsuario.getNumeroEvaluaciones());
+        System.out.println("- Numero de Likes: " + maxLikes + "\n");
     }
     
     public void showUsuarioMaxDislikes() {
@@ -103,7 +146,14 @@ public class Sahara {
                 maxUsuario = usuario;
             }
         }
-        System.out.println("Max Dislikes");
+        System.out.println("La informacion del usuario que tiene el mayor numero de dislikes en todas sus evaluaciones es:");
+        System.out.println("- ID: " + maxUsuario.getId());
+        System.out.println("- Nombre: " + maxUsuario.getNombre());
+        System.out.println("- Telefono: " + maxUsuario.getTelefono());
+        System.out.println("- Direccion: " + maxUsuario.getDireccion());
+        System.out.println("- Numero de Compras: " + maxUsuario.getCantidadCompras());
+        System.out.println("- Numero de Evaluaciones: " + maxUsuario.getNumeroEvaluaciones());
+        System.out.println("- Numero de Dislikes: " + maxDislikes);
     }
     
 }

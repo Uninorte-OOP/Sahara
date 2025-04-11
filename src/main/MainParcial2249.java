@@ -74,7 +74,7 @@ public class MainParcial2249 {
         autoresLibro.add(autores.get(10));
         ediciones.add(0);
         ediciones.add(1);
-        sahara.addLibro(new Libro(1938624, "El Nombre del Viento", autores, "Editorial Fantasia", ediciones, "978-3-16-148410-0", "Pasta dura, 500 paginas", Genero.AVENTURA, 101660.26));
+        sahara.addLibro(new Libro(1938624, "El Nombre del Viento", autoresLibro, "Editorial Fantasia", ediciones, "978-3-16-148410-0", "Pasta dura, 500 paginas", Genero.AVENTURA, 101660.26));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -87,7 +87,7 @@ public class MainParcial2249 {
         ediciones.add(4);
         ediciones.add(5);
         ediciones.add(6);
-        sahara.addLibro(new Libro(4777103, "La Quinta Temporada", autores, "Editorial Ciencia Ficcion", ediciones, "978-3-16-148410-1", "Pasta blanda, 400 paginas", Genero.HISTORICO, 109626.57));
+        sahara.addLibro(new Libro(4777103, "La Quinta Temporada", autoresLibro, "Editorial Ciencia Ficcion", ediciones, "978-3-16-148410-1", "Pasta blanda, 400 paginas", Genero.HISTORICO, 109626.57));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -99,7 +99,7 @@ public class MainParcial2249 {
         ediciones.add(3);
         ediciones.add(4);
         ediciones.add(5);
-        sahara.addLibro(new Libro(7971638, "Los Desposeidos", autores, "Editorial Clasicos", ediciones, "978-3-16-148410-2", "Tapa dura, 600 paginas", Genero.AVENTURA, 182742.57));
+        sahara.addLibro(new Libro(7971638, "Los Desposeidos", autoresLibro, "Editorial Clasicos", ediciones, "978-3-16-148410-2", "Tapa dura, 600 paginas", Genero.AVENTURA, 182742.57));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -107,7 +107,7 @@ public class MainParcial2249 {
         autoresLibro.add(autores.get(2));
         autoresLibro.add(autores.get(9));
         ediciones.add(0);
-        sahara.addLibro(new Libro(1536468, "El Hobbit", autores, "Editorial Aventura", ediciones, "978-2-34-30-8", "Pasta blanda, 443 paginas", Genero.THRILLER, 124534.85));
+        sahara.addLibro(new Libro(1536468, "El Hobbit", autoresLibro, "Editorial Aventura", ediciones, "978-2-34-30-8", "Pasta blanda, 443 paginas", Genero.THRILLER, 124534.85));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -117,7 +117,7 @@ public class MainParcial2249 {
         ediciones.add(1);
         ediciones.add(2);
         ediciones.add(3);
-        sahara.addLibro(new Libro(6815327, "Juego de Tronos", autores, "Editorial Fantasia", ediciones, "978-5-82-74-4", "Pasta dura, 496 paginas", Genero.HISTORICO, 21770.01));
+        sahara.addLibro(new Libro(6815327, "Juego de Tronos", autoresLibro, "Editorial Fantasia", ediciones, "978-5-82-74-4", "Pasta dura, 496 paginas", Genero.HISTORICO, 21770.01));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -125,7 +125,7 @@ public class MainParcial2249 {
         autoresLibro.add(autores.get(6));
         ediciones.add(0);
         ediciones.add(1);
-        sahara.addLibro(new Libro(4206245, "El Alquimista", autores, "Editorial Filosofica", ediciones, "978-1-71-63-2", "Pasta blanda, 540 paginas", Genero.ROMANCE, 172770.12));
+        sahara.addLibro(new Libro(4206245, "El Alquimista", autoresLibro, "Editorial Filosofica", ediciones, "978-1-71-63-2", "Pasta blanda, 540 paginas", Genero.ROMANCE, 172770.12));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -136,7 +136,7 @@ public class MainParcial2249 {
         ediciones.add(1);
         ediciones.add(2);
         ediciones.add(3);
-        sahara.addLibro(new Libro(1278477, "1984", autores, "Editorial Clasicos", ediciones, "978-4-3-22-8", "Pasta dura, 668 paginas", Genero.ROMANCE, 188447.71));       
+        sahara.addLibro(new Libro(1278477, "1984", autoresLibro, "Editorial Clasicos", ediciones, "978-4-3-22-8", "Pasta dura, 668 paginas", Genero.ROMANCE, 188447.71));       
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -149,7 +149,7 @@ public class MainParcial2249 {
         ediciones.add(4);
         ediciones.add(5);
         ediciones.add(6);
-        sahara.addLibro(new Libro(8819883, "El Principito", autores, "Editorial Infantil", ediciones, "978-5-85-91-9", "Pasta blanda, 508 paginas", Genero.ROMANCE, 70142.57));
+        sahara.addLibro(new Libro(8819883, "El Principito", autoresLibro, "Editorial Infantil", ediciones, "978-5-85-91-9", "Pasta blanda, 508 paginas", Genero.ROMANCE, 70142.57));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -157,7 +157,7 @@ public class MainParcial2249 {
         autoresLibro.add(autores.get(3));
         ediciones.add(0);
         ediciones.add(1);
-        sahara.addLibro(new Libro(5219426, "Cien Años de Soledad", autores, "Editorial Realismo Magico", ediciones, "978-5-5-97-6", "Pasta dura, 700 paginas", Genero.FANTASIA, 37153.25));
+        sahara.addLibro(new Libro(5219426, "Cien Años de Soledad", autoresLibro, "Editorial Realismo Magico", ediciones, "978-5-5-97-6", "Pasta dura, 700 paginas", Genero.FANTASIA, 37153.25));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -166,7 +166,7 @@ public class MainParcial2249 {
         ediciones.add(1);
         ediciones.add(2);
         ediciones.add(3);
-        sahara.addLibro(new Libro(2219628, "Cronica de una muerte anunciada", autores, "Editorial Novela", ediciones, "978-1-32-42-6", "Pasta blanda, 623 paginas", Genero.HISTORICO, 19517.49));
+        sahara.addLibro(new Libro(2219628, "Cronica de una muerte anunciada", autoresLibro, "Editorial Novela", ediciones, "978-1-32-42-6", "Pasta blanda, 623 paginas", Genero.HISTORICO, 19517.49));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -174,7 +174,7 @@ public class MainParcial2249 {
         autoresLibro.add(autores.get(5));
         ediciones.add(0);
         ediciones.add(1);
-        sahara.addLibro(new Libro(5460105, "Rayuela", autores, "Editorial Novela", ediciones, "978-5-10-71-2", "Pasta dura, 535 paginas", Genero.FANTASIA, 171594.05));    
+        sahara.addLibro(new Libro(5460105, "Rayuela", autoresLibro, "Editorial Novela", ediciones, "978-5-10-71-2", "Pasta dura, 535 paginas", Genero.FANTASIA, 171594.05));    
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -185,7 +185,7 @@ public class MainParcial2249 {
         ediciones.add(2);
         ediciones.add(3);
         ediciones.add(4);
-        sahara.addLibro(new Libro(1033431, "El tunel 1", autores, "Editorial Novela", ediciones, "978-3-81-99-9", "Pasta blanda, 529 paginas", Genero.ROMANCE, 180196.04));
+        sahara.addLibro(new Libro(1033431, "El tunel 1", autoresLibro, "Editorial Novela", ediciones, "978-3-81-99-9", "Pasta blanda, 529 paginas", Genero.ROMANCE, 180196.04));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -195,7 +195,7 @@ public class MainParcial2249 {
         ediciones.add(0);
         ediciones.add(1);
         ediciones.add(2);
-        sahara.addLibro(new Libro(9621305, "El Aleph", autores, "Editorial Fantasia", ediciones, "978-3-92-82-4", "Pasta dura, 620 paginas", Genero.AVENTURA, 178786.94)); 
+        sahara.addLibro(new Libro(9621305, "El Aleph", autoresLibro, "Editorial Fantasia", ediciones, "978-3-92-82-4", "Pasta dura, 620 paginas", Genero.AVENTURA, 178786.94)); 
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -205,7 +205,7 @@ public class MainParcial2249 {
         ediciones.add(2);
         ediciones.add(3);
         ediciones.add(4);
-        sahara.addLibro(new Libro(7504514, "El tunel 2", autores, "Editorial Novela", ediciones, "978-5-57-38-3", "Pasta blanda, 504 paginas", Genero.AVENTURA, 141296.64));
+        sahara.addLibro(new Libro(7504514, "El tunel 2", autoresLibro, "Editorial Novela", ediciones, "978-5-57-38-3", "Pasta blanda, 504 paginas", Genero.AVENTURA, 141296.64));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -213,7 +213,7 @@ public class MainParcial2249 {
         autoresLibro.add(autores.get(13));
         autoresLibro.add(autores.get(9));
         ediciones.add(0);
-        sahara.addLibro(new Libro(5797583, "El Proceso", autores, "Editorial Novela", ediciones, "978-3-38-69-4", "Pasta dura, 338 paginas", Genero.AVENTURA, 149000.52)); 
+        sahara.addLibro(new Libro(5797583, "El Proceso", autoresLibro, "Editorial Novela", ediciones, "978-3-38-69-4", "Pasta dura, 338 paginas", Genero.AVENTURA, 149000.52)); 
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -226,7 +226,7 @@ public class MainParcial2249 {
         ediciones.add(4);
         ediciones.add(5);
         ediciones.add(6);
-        sahara.addLibro(new Libro(1134128, "El extranjero", autores, "Editorial Novela", ediciones, "978-4-67-34-8", "Pasta blanda, 612 paginas", Genero.AVENTURA, 10494.05));
+        sahara.addLibro(new Libro(1134128, "El extranjero", autoresLibro, "Editorial Novela", ediciones, "978-4-67-34-8", "Pasta blanda, 612 paginas", Genero.AVENTURA, 10494.05));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -237,7 +237,7 @@ public class MainParcial2249 {
         ediciones.add(2);
         ediciones.add(3);
         ediciones.add(4);
-        sahara.addLibro(new Libro(3541989, "El tunel 3", autores, "Editorial Novela", ediciones, "978-4-9-70-5", "Pasta dura, 489 paginas", Genero.ROMANCE, 76353.15));    
+        sahara.addLibro(new Libro(3541989, "El tunel 3", autoresLibro, "Editorial Novela", ediciones, "978-4-9-70-5", "Pasta dura, 489 paginas", Genero.ROMANCE, 76353.15));    
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -252,7 +252,7 @@ public class MainParcial2249 {
         ediciones.add(5);
         ediciones.add(6);
         ediciones.add(7);
-        sahara.addLibro(new Libro(1159171, "El tunel 4", autores, "Editorial Novela", ediciones, "978-5-42-18-9", "Pasta blanda, 384 paginas", Genero.THRILLER, 118646.77));
+        sahara.addLibro(new Libro(1159171, "El tunel 4", autoresLibro, "Editorial Novela", ediciones, "978-5-42-18-9", "Pasta blanda, 384 paginas", Genero.THRILLER, 118646.77));
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -262,7 +262,7 @@ public class MainParcial2249 {
         ediciones.add(1);
         ediciones.add(2);
         ediciones.add(3);
-        sahara.addLibro(new Libro(1046770, "El tunel 5", autores, "Editorial Novela", ediciones, "978-4-54-32-2", "Pasta dura, 444 paginas", Genero.FANTASIA, 100156.38)); 
+        sahara.addLibro(new Libro(1046770, "El tunel 5", autoresLibro, "Editorial Novela", ediciones, "978-4-54-32-2", "Pasta dura, 444 paginas", Genero.FANTASIA, 100156.38)); 
 
         autoresLibro = new ArrayList<>();
         ediciones = new ArrayList<>();
@@ -274,7 +274,7 @@ public class MainParcial2249 {
         ediciones.add(4);
         ediciones.add(5);
         ediciones.add(6);
-        sahara.addLibro(new Libro(5598169, "Sin noticias de Gurb", autores, "Editorial Novela", ediciones, "978-1-54-60-2", "Pasta blanda, 437 paginas", Genero.THRILLER, 150308.71));
+        sahara.addLibro(new Libro(5598169, "Sin noticias de Gurb", autoresLibro, "Editorial Novela", ediciones, "978-1-54-60-2", "Pasta blanda, 437 paginas", Genero.THRILLER, 150308.71));
 
         sahara.addBodega(new Bodega(2.79, -72.27));
         sahara.getBodega(0).addExistencias(sahara.getLibro(1033431), 53);
@@ -1004,3 +1004,49 @@ public class MainParcial2249 {
     }
     
 }
+
+/**
+------------- Resultados -------------
+
+La informacion del libro que tiene el mayor promedio en estrellas de sus evaluaciones es:
+- ID: 4777103
+- Titulo: La Quinta Temporada
+- Autores: [George R.R. Martin, Terry Brooks]
+- Editorial: Editorial Ciencia Ficcion
+- Ediciones: [0, 1, 2, 3, 4, 5, 6]
+- ISBN: 978-3-16-148410-1
+- Caracteristicas: Pasta blanda, 400 paginas
+- Genero: HISTORICO
+- Precio: $109626.57
+- Numero de Bodegas: 2
+- Total de Existencias: 131
+- Numero de Evaluaciones: 1
+- Estrellas Promedio: 4.00
+
+La informacion del usuario que registro la mayor compra es:
+- ID: 6247882
+- Nombre: Hannah Montana
+- Telefono: 623462930
+- Direccion: 8901 Fir St, Springfield, IL
+- Numero de Compras: 4
+- Numero de Evaluaciones: 4
+- Mayor Compra: $2311553.24
+
+La informacion del usuario que tiene el mayor numero de likes en todas sus evaluaciones es:
+- ID: 2132853
+- Nombre: Julia Roberts
+- Telefono: 626342404
+- Direccion: 1234 Cherry St, Springfield, IL
+- Numero de Compras: 2
+- Numero de Evaluaciones: 4
+- Numero de Likes: 15
+
+La informacion del usuario que tiene el mayor numero de dislikes en todas sus evaluaciones es:
+- ID: 1266437
+- Nombre: Kevin Spacey
+- Telefono: 619187656
+- Direccion: 2345 Ash St, Springfield, IL
+- Numero de Compras: 1
+- Numero de Evaluaciones: 4
+- Numero de Dislikes: 14
+*/

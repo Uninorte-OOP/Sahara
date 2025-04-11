@@ -45,6 +45,14 @@ public class Usuario extends Persona {
         evaluacion.increaseDislikes();
     }
     
+    public int getCantidadCompras() {
+        return this.compras.size();
+    }
+    
+    public int getNumeroEvaluaciones() {
+        return this.evaluaciones.size();
+    }
+    
     public int getTotalLikes() {
         int total = 0;
         for (Evaluacion evaluacion : this.evaluaciones) {
@@ -59,6 +67,18 @@ public class Usuario extends Persona {
             total += evaluacion.getDislikes();
         }
         return total;
+    }
+    
+    public Compra getMaxCompra() {
+        double maxTotal = 0;
+        Compra maxCompra = null;
+        for (Compra compra : this.compras) {
+            if (compra.getTotal() > maxTotal) {
+                maxTotal = compra.getTotal();
+                maxCompra = compra;
+            }
+        }
+        return maxCompra;
     }
     
 }

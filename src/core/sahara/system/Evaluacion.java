@@ -34,6 +34,10 @@ public class Evaluacion {
         this.libro.addEvaluacion(this);
     }
 
+    public int getEstrellas() {
+        return estrellas;
+    }
+
     public int getLikes() {
         return likes;
     }

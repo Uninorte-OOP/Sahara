@@ -57,12 +57,63 @@ public class Libro {
         return id;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public ArrayList<Autor> getAutores() {
+        return autores;
+    }
+
+    public String getEditorial() {
+        return editorial;
+    }
+
+    public ArrayList<Integer> getEdiciones() {
+        return ediciones;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getCaracteristicas() {
+        return caracteristicas;
+    }
+
+    public Genero getGenero() {
+        return genero;
+    }
+
     public double getPrecio() {
         return precio;
     }
 
     public ArrayList<Bodega> getBodegas() {
         return bodegas;
+    }
+    
+    public int getTotalExistencias() {
+        int total = 0;
+        for (Bodega bodega : this.bodegas) {
+            total += bodega.getExistencias(this);
+        }
+        return total;
+    }
+    
+    public double getPromedioEstrellas() {
+        if (this.evaluaciones.isEmpty()) {
+            return 0;
+        }
+        double sum = 0;
+        for (Evaluacion evaluacion : this.evaluaciones) {
+            sum += evaluacion.getEstrellas();
+        }
+        return sum / this.evaluaciones.size();
+    }
+    
+    public int getNumeroEvaluaciones() {
+        return this.evaluaciones.size();
     }
     
 }
