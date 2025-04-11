@@ -45,12 +45,24 @@ public class Libro {
         }
     }
     
+    public void addBodega(Bodega bodega) {
+        this.bodegas.add(bodega);
+    }
+    
     public void addEvaluacion(Evaluacion evaluacion) {
         this.evaluaciones.add(evaluacion);
     }
 
     public int getId() {
         return id;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public ArrayList<Bodega> getBodegas() {
+        return bodegas;
     }
     
 }

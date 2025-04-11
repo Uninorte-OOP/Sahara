@@ -25,4 +25,15 @@ public class Bodega {
         this.existencias = new ArrayList<>();
     }
     
+    public void addExistencias(Libro libro, int existencias) {
+        if (!this.libros.contains(libro)) {
+            libro.addBodega(this);
+            this.libros.add(libro);
+            this.existencias.add(existencias);
+        } else {
+            int libroIndex = this.libros.indexOf(libro);
+            this.existencias.set(libroIndex, this.existencias.get(libroIndex) + existencias);
+        }
+    }
+    
 }

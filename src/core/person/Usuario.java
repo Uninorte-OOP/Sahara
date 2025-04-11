@@ -29,6 +29,10 @@ public class Usuario extends Persona {
         this.compras.add(compra);
     }
     
+    public Evaluacion getEvaluacion(int index) {
+        return this.evaluaciones.get(index);
+    }
+    
     public void makeEvaluacion(Libro libro, LocalDateTime fecha, int estrellas, String comentario) {
         this.evaluaciones.add(new Evaluacion(this, libro, fecha, estrellas, comentario));
     }

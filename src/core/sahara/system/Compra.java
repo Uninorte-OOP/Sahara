@@ -31,7 +31,11 @@ public class Compra {
     }
     
     private double calculateTotal() {
-        return 0;
+        double total = 0;
+        for (int i = 0; i < this.libros.size(); i++) {
+            total += this.libros.get(i).getPrecio() * this.unidades.get(i);
+        }
+        return total;
     }
     
 }

@@ -32,7 +32,15 @@ public class Sahara {
         this.bodegas.add(bodega);
     }
     
-    public void addCompra(Usuario usuario, ArrayList<Libro> libros, ArrayList<Integer> unidades, ArrayList<Bodega> bodegas) {
+    public void addCompra(Usuario usuario, ArrayList<Libro> libros, ArrayList<Integer> unidades) {
+        ArrayList<Bodega> bodegas = new ArrayList<>();
+        for (Libro libro : libros) {
+            for (Bodega bodega : libro.getBodegas()) {
+                if (!bodegas.contains(bodega)) {
+                    bodegas.add(bodega);
+                }
+            }
+        }
         this.compras.add(new Compra(usuario, libros, unidades, bodegas));
     }
     
